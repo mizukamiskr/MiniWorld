@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Hlsl">
+      <UniqueIdentifier>{c222d694-35f3-49c6-ad90-50a6f00641ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DirectX">
+      <UniqueIdentifier>{86674ab0-fcfb-4b7e-b9da-ebd00e626b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DirectX">
+      <UniqueIdentifier>{760c92dc-f86b-4830-877c-7b83c842ffca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Effect">
+      <UniqueIdentifier>{3b016920-a211-4ae6-b354-4e781a32c18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Effect">
+      <UniqueIdentifier>{c3b1d9f4-2303-44f3-a308-7a19ea2158f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{a98afb14-ff4b-4615-bd40-d19f1709a2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{202f82f4-b485-484a-9356-55551494b246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Texture">
+      <UniqueIdentifier>{a2d520ad-ea7d-459e-8fb5-bda918b5a6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Texture">
+      <UniqueIdentifier>{a60ed19c-7806-4ae6-88b4-9be33aee9b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{2655d612-98ca-47c5-b334-427a097caa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{8e0454d9-b4a1-4b87-9d26-027bef2db878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\timer">
+      <UniqueIdentifier>{8f22d15c-39e9-403c-987f-59295a99d2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\timer">
+      <UniqueIdentifier>{905c9d61-9346-43de-ba29-24e90a9c825a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Game">
+      <UniqueIdentifier>{f32b616a-fa80-4937-80ce-1a48a9f1769e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{8c4ddb9a-4fff-4432-8783-b43c4195375f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LImGui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTrace.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader11.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader11.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectHelper.h">
+      <Filter>头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IEffect.h">
+      <Filter>头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="XUtil.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>头文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>头文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFormat.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>头文件\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuTimer.h">
+      <Filter>头文件\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuTimer.h">
+      <Filter>头文件\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGrab11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDefines.h">
+      <Filter>资源文件\Hlsl</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkManager.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>源文件\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTrace.cpp">
+      <Filter>源文件\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader11.cpp">
+      <Filter>源文件\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader11.cpp">
+      <Filter>源文件\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>源文件\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>源文件\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuTimer.cpp">
+      <Filter>源文件\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuTimer.cpp">
+      <Filter>源文件\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectHelper.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGrab11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxEffect.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowEffect.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardEffect.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceEffect.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcess.cpp">
+      <Filter>源文件\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkManager.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Skybox.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="HLSL\Shadow.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="HLSL\Rendering.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="HLSL\FullScreenTriangle.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="HLSL\ConstantBuffers.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="HLSL\HardInstance.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+    <None Include="PostProcess.hlsl">
+      <Filter>资源文件\Hlsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
